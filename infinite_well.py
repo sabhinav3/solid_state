@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import argparse
 
 def main():
-    # Parse command line arguments
-    parser = argparse.ArgumentParser(description='Solve infinite potential well Schrödinger equation')
+    # Command line arguments
+    parser = argparse.ArgumentParser(description='Infinite Potential Well Schrödinger Equation')
     parser.add_argument('--mass', type=float, required=True, help='Electron mass (kg)')
     parser.add_argument('--width', type=float, required=True, help='Well width (meters)')
     args = parser.parse_args()
@@ -41,13 +41,13 @@ def main():
     colors = plt.cm.viridis(np.linspace(0, 1, n_states))
     scaling_factor = 0.15 * L  # Wavefunction scaling for visualization
 
-    # Create figure
+    # Creating figure
     plt.figure(figsize=(12, 8))
 
-    # Draw potential well
+    # Drawing potential well
     plt.plot([0, L], [0, 0], 'k-', lw=3, label='Infinite Well')
 
-    # Plot energy levels and wavefunctions
+    # Plotting energy levels and wavefunctions
     for n in range(n_states):
         energy = energies_eV[n]
         psi = eigenvectors[:, n]
