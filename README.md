@@ -16,14 +16,21 @@ This repository contains Python scripts to numerically solve the Schrödinger eq
    - **Inputs**: Mass of electron, width of each well, depth of the wells (in eV), spacing between wells.  
    - **Outputs**: Eigenenergies, eigen wavefunctions, plot of the coupled wells with energy bands.  
 
-## Example Output
-The results mimic the visualization from [falstad.com/qm1d](https://www.falstad.com/qm1d/), showing quantized energy levels and wavefunctions within the potential wells.
-
 ## Requirements
 - Python 3.x
 - NumPy
 - SciPy
 - Matplotlib
+
+## Output Graphs
+
+![infinite](https://github.com/user-attachments/assets/f60e0799-5fe6-40f6-a16e-670436380ba1)
+
+![finite_potential_well](https://github.com/user-attachments/assets/80c32b2f-17ef-464a-8d73-0c744f1b0509)
+
+![double_potential_well](https://github.com/user-attachments/assets/ba994f8c-95ec-4552-89a9-b0e2d597e00f)
+
+
 
 Install dependencies with:  
 ```bash
