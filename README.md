@@ -24,15 +24,16 @@ This repository contains Python scripts to numerically solve the Schrödinger eq
 
 ## Output Graphs
 
-![infinite](https://github.com/user-attachments/assets/f60e0799-5fe6-40f6-a16e-670436380ba1)
+![infinite_well](https://github.com/user-attachments/assets/937fa81e-18e9-44b5-8dba-43155938aea3)
 
-![finite_potential_well](https://github.com/user-attachments/assets/80c32b2f-17ef-464a-8d73-0c744f1b0509)
+![finite_wellpng](https://github.com/user-attachments/assets/0f6991ef-6fe2-49d9-9e87-b8b733f56ccd)
 
-![double_potential_well](https://github.com/user-attachments/assets/ba994f8c-95ec-4552-89a9-b0e2d597e00f)
+![two_spaced_wells](https://github.com/user-attachments/assets/ffb545ba-9381-4ac9-ae34-44c6bc3ccf1b)
 
 
 
-Install dependencies with:  
+
+## Install dependencies with:  
 ```bash
 pip install numpy scipy matplotlib``
 
