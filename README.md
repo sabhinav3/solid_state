@@ -1,4 +1,3 @@
-```markdown
 # Numerical Solution of Schrödinger Equation for Electrons in Potential Wells
 
 This repository contains Python scripts to numerically solve the Schrödinger equation for electrons in three types of potential wells: **infinite**, **finite**, and **two closely spaced finite wells**. The solutions provide eigenenergies, eigenvectors (wavefunctions), and plots of the potential wells with allowed energy bands.
@@ -28,8 +27,7 @@ The results mimic the visualization from [falstad.com/qm1d](https://www.falstad.
 
 Install dependencies with:  
 ```bash
-pip install numpy scipy matplotlib
-```
+pip install numpy scipy matplotlib``
 
 ## Usage
 
